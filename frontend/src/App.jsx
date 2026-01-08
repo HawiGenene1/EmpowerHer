@@ -1,7 +1,9 @@
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div style={{ padding: "40px", fontSize: "24px" }}>
-      EmpowerHer Frontend is Working ✅
+    <div className="App">
+      <Home />
     </div>
   );
 }
